@@ -9,33 +9,31 @@
 </head>
 <script type="text/javascript">
 
-function inverse() {
-  var num = document.getElementById("n1");
-  num.value = 1/num.value;
-}
+  function inverse() {
+    var num = document.getElementById("n1");
+    num.value = 1/num.value;
+  }
 
-function square() {
-  var num = document.getElementById("n1");
-  num.value = num.value * num.value;
-}
+  function square() {
+    var num = document.getElementById("n1");
+    num.value = num.value * num.value;
+  }
 </script>
 </head>
-
-<h3>My Calculator</h3>
-
 <body>
+  <h3>My Calculator</h3>
   Number:
   <input type="text" id="n1"><p>
 
   <button onclick="inverse()"> 1/x </button>
   <button onclick="square()"> x<sup>2</sup> </button>
 
-  
-    <!--<script src="js/jquery-3.2.1.min.js"></script>-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <!--<script type="js/bootstrap.min.js"></script>-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+  <!--<script src="js/jquery-3.2.1.min.js"></script>-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <!--<script type="js/bootstrap.min.js"></script>-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 </body>
 </html>
